@@ -1,0 +1,451 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #1d1d1d;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #ffffff;
+  margin: 5px 0;
+}
+p {
+  color: #fabf59;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+.header {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  color: #fabf59;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+}
+.background {
+  background:
+    linear-gradient(rgba(29, 29, 29, 0.5), rgba(29, 29, 29, 0.5)),
+    url("./images/harrypottermain.png") no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  background-position: top;
+  display: grid;
+  place-items: center;
+}
+.showCharactersBtn {
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  border: none;
+  background-color: #f9b50c;
+  font-weight: 700;
+  font-size: 18px;
+}
+.showCharactersBtn:hover {
+  background-color: transparent;
+  color: #f9b50c;
+  border: 1px solid #f9b50c;
+}
+.students {
+  background: url("./images/students.png") no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  margin: 0 10px;
+}
+.tutors {
+  background: url("./images/tutors.png") no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  margin: 0 10px;
+}
+.characters {
+  background: url(./images/characters.png) no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  margin: 0 10px;
+}
+.charactersPopUp {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 180px;
+}
+.popUpBtn {
+  width: 250px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: transparent;
+  color: #f9b50c;
+  border: 1px solid #f9b50c;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 50px;
+}
+.popUpBtn:hover {
+  background-color: #f9b50c;
+  color: #1d1d1d;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 40px 0;
+}
+.h1Cards {
+  color: #fabf59;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  max-width: 1200px;
+}
+.cardsContainer {
+  color: #1d1d1d;
+  padding-bottom: 30px;
+  max-width: 1250px;
+}
+.potter {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Potter.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.granger {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Granger.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.weasley {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Weasley.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.malfoy {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Malfoy.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.diggory {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Diggory.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.chang {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Chang.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.longbottom {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Longbottom.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.lovegood {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Lovegood.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cardsDiv1,
+.cardsDiv2 {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 290px;
+  height: 450px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.moreInfo {
+  font-weight: 500;
+  color: #ffffff;
+}
+.svgBtn {
+  background: transparent;
+  border: none;
+}
+.arrowSvg {
+  margin-bottom: -4px;
+  position: relative;
+  z-index: 2;
+}
+.circleSvg {
+  margin: -4px -10px;
+  position: relative;
+  z-index: 1;
+}
+.mcGonagall {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/McGonagall.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.snape {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Snape.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hagrid {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Hagrid.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.lupin {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Lupin.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slughorn {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Slughorn.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.umbridge {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Umbridge.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.filch {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Filch.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.dumbledore {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Dumbledore.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.weasleyGinny {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/GinnyWeasley.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.black {
+  background:
+    linear-gradient(
+      360deg,
+      rgb(15, 15, 15) 0%,
+      rgba(15, 15, 15, 0.74) 30%,
+      rgba(15, 15, 15, 0) 70%
+    ),
+    url(./images/Black.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.houses {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #d9d9d9;
+  border-radius: 100px;
+  margin-bottom: 40px;
+}
+.housesBtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  border-radius: 100px;
+  width: 315px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.housesBtn:hover {
+  background-color: #f9b50c;
+  color: #1d1d1d;
+}
+.active {
+  background-color: #f9b50c;
+  color: #1d1d1d;
+}
+.returnBtn {
+  background-color: #fabf59;
+  color: #1d1d1d;
+  border: 1px solid #f9b50c;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  border-radius: 50px;
+  height: 40px;
+  width: 100px;
+  margin: 10px 10px 0px 10px;
+}
+.returnBtn:hover {
+  background-color: #f9b50c;
+  color: #1d1d1d;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    opacity 1s ease,
+    visibility 1s ease; /*opacity corresponds to 
+  opening of the window, and visibility to closing*/
+  z-index: 3;
+}
+.modal {
+  position: relative;
+  width: 295px;
+  height: auto;
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 20px;
+}
+.hoverList {
+  font-size: 14px;
+  color: #ffffff;
+}
+.hoverAnswers {
+  font-size: 14px;
+  color: #fabf59;
+  text-transform: capitalize;
+}
+.following {
+  color: #fabf59;
+  text-align: center;
+  font-size: 50px;
+}
