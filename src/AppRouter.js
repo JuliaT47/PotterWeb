@@ -8,7 +8,6 @@ import FollowingSoon from "./FollowingSoon";
 import NotFound from "./NotFound";
 
 const AppRouter = () => {
-  console.log("hello");
   return (
     <Routes>
       <Route path="/" element={<MainPage />} />

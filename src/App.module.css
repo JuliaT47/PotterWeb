@@ -34,7 +34,7 @@ p {
 .background {
   background:
     linear-gradient(rgba(29, 29, 29, 0.5), rgba(29, 29, 29, 0.5)),
-    url("./images/harrypottermain.png") no-repeat;
+    url("../public/images/harrypottermain.png") no-repeat;
   width: 100%;
   min-height: 100vh;
   background-position: top;
@@ -56,21 +56,21 @@ p {
   border: 1px solid #f9b50c;
 }
 .students {
-  background: url("./images/students.png") no-repeat;
+  background: url("../public/images/students.png") no-repeat;
   background-size: contain;
   width: 350px;
   height: 350px;
   margin: 0 10px;
 }
 .tutors {
-  background: url("./images/tutors.png") no-repeat;
+  background: url("../public/images/tutors.png") no-repeat;
   background-size: contain;
   width: 350px;
   height: 350px;
   margin: 0 10px;
 }
 .characters {
-  background: url(./images/characters.png) no-repeat;
+  background: url("../public/images/characters.png") no-repeat;
   background-size: contain;
   width: 350px;
   height: 350px;
@@ -124,7 +124,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Potter.png) no-repeat;
+    url("../public/images/Potter.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -136,7 +136,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Granger.png) no-repeat;
+    url("../public/images/Granger.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -148,7 +148,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Weasley.png) no-repeat;
+    url("../public/images/Weasley.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -160,7 +160,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Malfoy.png) no-repeat;
+    url("../public/images/Malfoy.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -172,7 +172,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Diggory.png) no-repeat;
+    url("../public/images/Diggory.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -184,7 +184,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Chang.png) no-repeat;
+    url("../public/images/Chang.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -196,7 +196,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Longbottom.png) no-repeat;
+    url("../public/images/Longbottom.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -208,7 +208,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Lovegood.png) no-repeat;
+    url("../public/images/Lovegood.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -254,7 +254,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/McGonagall.png) no-repeat;
+    url("../public/images/McGonagall.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -266,7 +266,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Snape.png) no-repeat;
+    url("../public/images/Snape.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -278,7 +278,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Hagrid.png) no-repeat;
+    url("../public/images/Hagrid.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -290,7 +290,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Lupin.png) no-repeat;
+    url("../public/images/Lupin.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -302,7 +302,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Slughorn.png) no-repeat;
+    url("../public/images/Slughorn.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -314,7 +314,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Umbridge.png) no-repeat;
+    url("../public/images/Umbridge.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -326,7 +326,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Filch.png) no-repeat;
+    url("../public/images/Filch.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -338,7 +338,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Dumbledore.png) no-repeat;
+    url("../public/images/Dumbledore.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -350,7 +350,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/GinnyWeasley.png) no-repeat;
+    url("../public/images/GinnyWeasley.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -362,7 +362,7 @@ p {
       rgba(15, 15, 15, 0.74) 30%,
       rgba(15, 15, 15, 0) 70%
     ),
-    url(./images/Black.png) no-repeat;
+    url("../public/images/Black.png") no-repeat;
   background-position: center;
   background-size: cover;
 }

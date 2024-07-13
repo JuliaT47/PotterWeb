@@ -1,7 +1,7 @@
-import Gryffindor from "./images/Gryffindor.png";
-import Slytherin from "./images/Slytherin.png";
-import Ravenclaw from "./images/Ravenclaw.png";
-import Hufflepuff from "./images/Hufflepuff.png";
+import Gryffindor from "./HouseImages/Gryffindor.png";
+import Slytherin from "./HouseImages/Slytherin.png";
+import Ravenclaw from "./HouseImages/Ravenclaw.png";
+import Hufflepuff from "./HouseImages/Hufflepuff.png";
 import styles from "./App.module.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
